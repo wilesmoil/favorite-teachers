@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box; 
+ }
+ 
+ body {
+     background-color: black;
+     font-family: 'Alegreya Sans', sans-serif;
+ }
+ 
+ #container {
+     width: 90%;
+     background-color: white;
+     margin: 0 auto;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Luckiest Guy', cursive;
+     margin: 0;
+ }
+ 
+ h1 {
+     float: left;
+     padding-left: 1em;
+     padding-top: 0.7em;
+ }
+ 
+ #search {
+     float: left;
+     padding: 1.25em;
+ }
+ 
+ #search input {
+     padding: 0.5em;
+ }
+ 
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ 
+ #navigation {
+     background-color: rgb(255, 187, 0);
+ }
+ 
+ #navigation ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ #navigation li {
+     float: left;
+     padding: 10px 20px;
+     border-right: 1px solid black;
+ }
+ 
+ #navigation li:hover {
+     background-color: white;
+     cursor: pointer;
+ }
+ 
+ main {
+     width: 100%;
+     min-height: 350px;
+     background-color: black;
+ }
+ 
+ main > aside {
+     float: left;
+     width: 20%;
+     background-color: rgb(255, 187, 0);
+     padding: 20px;
+ }
+ 
+ main > section {
+     float: left;
+     width: 80%;
+     padding: 20px;
+     background-color: black;
+     color: white;
+ }
+
+ aside select {
+     width: 100%;
+ }
+ 
+ aside hr {
+     border: none;
+     border-bottom: 1px solid black;
+     padding-bottom: 5px;
+ }
+
+ #teacher-listings {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ .teacher {
+     width: 30%;
+     background-color: white;
+     color: black;
+     float: left;
+     margin: 0 20px 20px 0;
+ }
+
+ .teacher img {
+     width: 90%;
+     margin: 10px auto;
+     display: block;
+ }
+
+ .teacher h4, .teacher p, .teacher a {
+     margin: 0;
+     text-align: center;
+     display: block;
+ }
