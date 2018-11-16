@@ -15,7 +15,7 @@ Teacher.prototype.toHtml = function(){
     return template(this);
 };
 
-teacher.forEach(function(teacher){
+teachers.forEach(function(teacher){
     teacher_list.push(new Teacher(teacher));
 });
 
