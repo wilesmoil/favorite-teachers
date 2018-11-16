@@ -3,10 +3,10 @@
 var teacher_list = [];
 
 var Teacher = function(teacher){
-    this.image = product.image;
-    this.name = product.name;
-    this.subjects = product.subjects;
-    this.teacher_id = product.teacher_id;
+    this.image = teacher.image;
+    this.name = teacher.name;
+    this.subjects = teacher.subjects;
+    this.teacher_id = teacher.teacher_id;
 };
 
 Teacher.prototype.toHtml = function(){
